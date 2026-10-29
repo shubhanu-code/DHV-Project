@@ -1,0 +1,16 @@
+node_modules
+dist
+.DS_Store
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.log
+data/raw/**/*.html
+data/processed/rankings.csv
+data/processed/rankings.json
+data/processed/audit_report.json
+data/processed/category_registry.json

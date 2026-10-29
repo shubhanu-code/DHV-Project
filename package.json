@@ -1,0 +1,22 @@
+{
+  "name": "nirf-insight-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "backend": "npm --prefix backend run dev",
+    "backend:start": "npm --prefix backend start",
+    "data": "python scripts/collect_nirf.py --years 2017-2025 --prepare-only",
+    "test:data": "python -m unittest discover -s scripts -p \"test_*.py\""
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "vite": "^8.3.4"
+  },
+  "devDependencies": {}
+}
