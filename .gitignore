@@ -9,8 +9,8 @@ __pycache__/
 .venv/
 venv/
 *.log
-data/raw/**/*.html
-data/processed/rankings.csv
-data/processed/rankings.json
-data/processed/audit_report.json
-data/processed/category_registry.json
+# data/raw/**/*.html
+# data/processed/rankings.csv
+# data/processed/rankings.json
+# data/processed/audit_report.json
+# data/processed/category_registry.json
