@@ -1,0 +1,2442 @@
+{
+  "generated_at": "2026-10-29T11:55:46.405756+00:00",
+  "scope": {
+    "years_requested": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "official_source_domain": "nirfindia.org"
+  },
+  "collection_errors": [],
+  "parse_warnings": [],
+  "category_registry": [
+    {
+      "year": 2017,
+      "category_original": "Colleges",
+      "category_standard": "College",
+      "url": "https://www.nirfindia.org/Rankings/2017/CollegeRanking.html",
+      "local_file": "data/raw/2017/CollegeRanking.html",
+      "record_count": 600,
+      "availability": "parsed"
+    },
+    {
+      "year": 2017,
+      "category_original": "Engineering",
+      "category_standard": "Engineering",
+      "url": "https://www.nirfindia.org/Rankings/2017/EngineeringRanking.html",
+      "local_file": "data/raw/2017/EngineeringRanking.html",
+      "record_count": 600,
+      "availability": "parsed"
+    },
+    {
+      "year": 2017,
+      "category_original": "Management",
+      "category_standard": "Management",
+      "url": "https://www.nirfindia.org/Rankings/2017/ManagementRanking.html",
+      "local_file": "data/raw/2017/ManagementRanking.html",
+      "record_count": 300,
+      "availability": "parsed"
+    },
+    {
+      "year": 2017,
+      "category_original": "Overall",
+      "category_standard": "Overall",
+      "url": "https://www.nirfindia.org/Rankings/2017/OverallRanking.html",
+      "local_file": "data/raw/2017/OverallRanking.html",
+      "record_count": 600,
+      "availability": "parsed"
+    },
+    {
+      "year": 2017,
+      "category_original": "Pharmacy",
+      "category_standard": "Pharmacy",
+      "url": "https://www.nirfindia.org/Rankings/2017/PharmacyRanking.html",
+      "local_file": "data/raw/2017/PharmacyRanking.html",
+      "record_count": 300,
+      "availability": "parsed"
+    },
+    {
+      "year": 2017,
+      "category_original": "Universities",
+      "category_standard": "University",
+      "url": "https://www.nirfindia.org/Rankings/2017/UniversityRanking.html",
+      "local_file": "data/raw/2017/UniversityRanking.html",
+      "record_count": 600,
+      "availability": "parsed"
+    },
+    {
+      "year": 2018,
+      "category_original": "Architecture and Planning",
+      "category_standard": "Architecture & Planning",
+      "url": "https://www.nirfindia.org/Rankings/2018/ArchitectureRanking.html",
+      "local_file": "data/raw/2018/ArchitectureRanking.html",
+      "record_count": 60,
+      "availability": "parsed"
+    },
+    {
+      "year": 2018,
+      "category_original": "Colleges",
+      "category_standard": "College",
+      "url": "https://www.nirfindia.org/Rankings/2018/CollegeRanking.html",
+      "local_file": "data/raw/2018/CollegeRanking.html",
+      "record_count": 600,
+      "availability": "parsed"
+    },
+    {
+      "year": 2018,
+      "category_original": "Engineering",
+      "category_standard": "Engineering",
+      "url": "https://www.nirfindia.org/Rankings/2018/EngineeringRanking.html",
+      "local_file": "data/raw/2018/EngineeringRanking.html",
+      "record_count": 600,
+      "availability": "parsed"
+    },
+    {
+      "year": 2018,
+      "category_original": "Law",
+      "category_standard": "Law",
+      "url": "https://www.nirfindia.org/Rankings/2018/LawRanking.html",
+      "local_file": "data/raw/2018/LawRanking.html",
+      "record_count": 60,
+      "availability": "parsed"
+    },
+    {
+      "year": 2018,
+      "category_original": "Management",
+      "category_standard": "Management",
+      "url": "https://www.nirfindia.org/Rankings/2018/ManagementRanking.html",
+      "local_file": "data/raw/2018/ManagementRanking.html",
+      "record_count": 300,
+      "availability": "parsed"
+    },
+    {
+      "year": 2018,
+      "category_original": "Medical",
+      "category_standard": "Medical",
+      "url": "https://www.nirfindia.org/Rankings/2018/MedicalRanking.html",
+      "local_file": "data/raw/2018/MedicalRanking.html",
+      "record_count": 150,
+      "availability": "parsed"
+    },
+    {
+      "year": 2018,
+      "category_original": "Overall",
+      "category_standard": "Overall",
+      "url": "https://www.nirfindia.org/Rankings/2018/OverallRanking.html",
+      "local_file": "data/raw/2018/OverallRanking.html",
+      "record_count": 600,
+      "availability": "parsed"
+    },
+    {
+      "year": 2018,
+      "category_original": "Pharmacy",
+      "category_standard": "Pharmacy",
+      "url": "https://www.nirfindia.org/Rankings/2018/PharmacyRanking.html",
+      "local_file": "data/raw/2018/PharmacyRanking.html",
+      "record_count": 300,
+      "availability": "parsed"
+    },
+    {
+      "year": 2018,
+      "category_original": "Universities",
+      "category_standard": "University",
+      "url": "https://www.nirfindia.org/Rankings/2018/UniversityRanking.html",
+      "local_file": "data/raw/2018/UniversityRanking.html",
+      "record_count": 600,
+      "availability": "parsed"
+    },
+    {
+      "year": 2019,
+      "category_original": "Architecture and Planning",
+      "category_standard": "Architecture & Planning",
+      "url": "https://www.nirfindia.org/Rankings/2019/ArchitectureRanking.html",
+      "local_file": "data/raw/2019/ArchitectureRanking.html",
+      "record_count": 15,
+      "availability": "parsed"
+    },
+    {
+      "year": 2019,
+      "category_original": "Colleges",
+      "category_standard": "College",
+      "url": "https://www.nirfindia.org/Rankings/2019/CollegeRanking.html",
+      "local_file": "data/raw/2019/CollegeRanking.html",
+      "record_count": 100,
+      "availability": "parsed"
+    },
+    {
+      "year": 2019,
+      "category_original": "Engineering",
+      "category_standard": "Engineering",
+      "url": "https://www.nirfindia.org/Rankings/2019/EngineeringRanking.html",
+      "local_file": "data/raw/2019/EngineeringRanking.html",
+      "record_count": 200,
+      "availability": "parsed"
+    },
+    {
+      "year": 2019,
+      "category_original": "Law",
+      "category_standard": "Law",
+      "url": "https://www.nirfindia.org/Rankings/2019/LawRanking.html",
+      "local_file": "data/raw/2019/LawRanking.html",
+      "record_count": 15,
+      "availability": "parsed"
+    },
+    {
+      "year": 2019,
+      "category_original": "Management",
+      "category_standard": "Management",
+      "url": "https://www.nirfindia.org/Rankings/2019/ManagementRanking.html",
+      "local_file": "data/raw/2019/ManagementRanking.html",
+      "record_count": 75,
+      "availability": "parsed"
+    },
+    {
+      "year": 2019,
+      "category_original": "Medical",
+      "category_standard": "Medical",
+      "url": "https://www.nirfindia.org/Rankings/2019/MedicalRanking.html",
+      "local_file": "data/raw/2019/MedicalRanking.html",
+      "record_count": 30,
+      "availability": "parsed"
+    },
+    {
+      "year": 2019,
+      "category_original": "Overall",
+      "category_standard": "Overall",
+      "url": "https://www.nirfindia.org/Rankings/2019/OverallRanking.html",
+      "local_file": "data/raw/2019/OverallRanking.html",
+      "record_count": 100,
+      "availability": "parsed"
+    },
+    {
+      "year": 2019,
+      "category_original": "Pharmacy",
+      "category_standard": "Pharmacy",
+      "url": "https://www.nirfindia.org/Rankings/2019/PharmacyRanking.html",
+      "local_file": "data/raw/2019/PharmacyRanking.html",
+      "record_count": 75,
+      "availability": "parsed"
+    },
+    {
+      "year": 2019,
+      "category_original": "Universities",
+      "category_standard": "University",
+      "url": "https://www.nirfindia.org/Rankings/2019/UniversityRanking.html",
+      "local_file": "data/raw/2019/UniversityRanking.html",
+      "record_count": 600,
+      "availability": "parsed"
+    },
+    {
+      "year": 2020,
+      "category_original": "Architecture and Planning",
+      "category_standard": "Architecture & Planning",
+      "url": "https://www.nirfindia.org/Rankings/2020/ArchitectureRanking.html",
+      "local_file": "data/raw/2020/ArchitectureRanking.html",
+      "record_count": 20,
+      "availability": "parsed"
+    },
+    {
+      "year": 2020,
+      "category_original": "Colleges",
+      "category_standard": "College",
+      "url": "https://www.nirfindia.org/Rankings/2020/CollegeRanking.html",
+      "local_file": "data/raw/2020/CollegeRanking.html",
+      "record_count": 100,
+      "availability": "parsed"
+    },
+    {
+      "year": 2020,
+      "category_original": "Dental",
+      "category_standard": "Dental",
+      "url": "https://www.nirfindia.org/Rankings/2020/DentalRanking.html",
+      "local_file": "data/raw/2020/DentalRanking.html",
+      "record_count": 30,
+      "availability": "parsed"
+    },
+    {
+      "year": 2020,
+      "category_original": "Engineering",
+      "category_standard": "Engineering",
+      "url": "https://www.nirfindia.org/Rankings/2020/EngineeringRanking.html",
+      "local_file": "data/raw/2020/EngineeringRanking.html",
+      "record_count": 200,
+      "availability": "parsed"
+    },
+    {
+      "year": 2020,
+      "category_original": "Law",
+      "category_standard": "Law",
+      "url": "https://www.nirfindia.org/Rankings/2020/LawRanking.html",
+      "local_file": "data/raw/2020/LawRanking.html",
+      "record_count": 20,
+      "availability": "parsed"
+    },
+    {
+      "year": 2020,
+      "category_original": "Management",
+      "category_standard": "Management",
+      "url": "https://www.nirfindia.org/Rankings/2020/ManagementRanking.html",
+      "local_file": "data/raw/2020/ManagementRanking.html",
+      "record_count": 75,
+      "availability": "parsed"
+    },
+    {
+      "year": 2020,
+      "category_original": "Medical",
+      "category_standard": "Medical",
+      "url": "https://www.nirfindia.org/Rankings/2020/MedicalRanking.html",
+      "local_file": "data/raw/2020/MedicalRanking.html",
+      "record_count": 40,
+      "availability": "parsed"
+    },
+    {
+      "year": 2020,
+      "category_original": "Overall",
+      "category_standard": "Overall",
+      "url": "https://www.nirfindia.org/Rankings/2020/OverallRanking.html",
+      "local_file": "data/raw/2020/OverallRanking.html",
+      "record_count": 101,
+      "availability": "parsed"
+    },
+    {
+      "year": 2020,
+      "category_original": "Pharmacy",
+      "category_standard": "Pharmacy",
+      "url": "https://www.nirfindia.org/Rankings/2020/PharmacyRanking.html",
+      "local_file": "data/raw/2020/PharmacyRanking.html",
+      "record_count": 75,
+      "availability": "parsed"
+    },
+    {
+      "year": 2020,
+      "category_original": "Universities",
+      "category_standard": "University",
+      "url": "https://www.nirfindia.org/Rankings/2020/UniversityRanking.html",
+      "local_file": "data/raw/2020/UniversityRanking.html",
+      "record_count": 600,
+      "availability": "parsed"
+    },
+    {
+      "year": 2021,
+      "category_original": "Architecture and Planning",
+      "category_standard": "Architecture & Planning",
+      "url": "https://www.nirfindia.org/Rankings/2021/ArchitectureRanking.html",
+      "local_file": "data/raw/2021/ArchitectureRanking.html",
+      "record_count": 25,
+      "availability": "parsed"
+    },
+    {
+      "year": 2021,
+      "category_original": "Colleges",
+      "category_standard": "College",
+      "url": "https://www.nirfindia.org/Rankings/2021/CollegeRanking.html",
+      "local_file": "data/raw/2021/CollegeRanking.html",
+      "record_count": 100,
+      "availability": "parsed"
+    },
+    {
+      "year": 2021,
+      "category_original": "Dental",
+      "category_standard": "Dental",
+      "url": "https://www.nirfindia.org/Rankings/2021/DentalRanking.html",
+      "local_file": "data/raw/2021/DentalRanking.html",
+      "record_count": 40,
+      "availability": "parsed"
+    },
+    {
+      "year": 2021,
+      "category_original": "Engineering",
+      "category_standard": "Engineering",
+      "url": "https://www.nirfindia.org/Rankings/2021/EngineeringRanking.html",
+      "local_file": "data/raw/2021/EngineeringRanking.html",
+      "record_count": 200,
+      "availability": "parsed"
+    },
+    {
+      "year": 2021,
+      "category_original": "Law",
+      "category_standard": "Law",
+      "url": "https://www.nirfindia.org/Rankings/2021/LawRanking.html",
+      "local_file": "data/raw/2021/LawRanking.html",
+      "record_count": 30,
+      "availability": "parsed"
+    },
+    {
+      "year": 2021,
+      "category_original": "Management",
+      "category_standard": "Management",
+      "url": "https://www.nirfindia.org/Rankings/2021/ManagementRanking.html",
+      "local_file": "data/raw/2021/ManagementRanking.html",
+      "record_count": 75,
+      "availability": "parsed"
+    },
+    {
+      "year": 2021,
+      "category_original": "Medical",
+      "category_standard": "Medical",
+      "url": "https://www.nirfindia.org/Rankings/2021/MedicalRanking.html",
+      "local_file": "data/raw/2021/MedicalRanking.html",
+      "record_count": 50,
+      "availability": "parsed"
+    },
+    {
+      "year": 2021,
+      "category_original": "Overall",
+      "category_standard": "Overall",
+      "url": "https://www.nirfindia.org/Rankings/2021/OverallRanking.html",
+      "local_file": "data/raw/2021/OverallRanking.html",
+      "record_count": 100,
+      "availability": "parsed"
+    },
+    {
+      "year": 2021,
+      "category_original": "Pharmacy",
+      "category_standard": "Pharmacy",
+      "url": "https://www.nirfindia.org/Rankings/2021/PharmacyRanking.html",
+      "local_file": "data/raw/2021/PharmacyRanking.html",
+      "record_count": 75,
+      "availability": "parsed"
+    },
+    {
+      "year": 2021,
+      "category_original": "Research Institutions",
+      "category_standard": "Research Institution",
+      "url": "https://www.nirfindia.org/Rankings/2021/ResearchRanking.html",
+      "local_file": "data/raw/2021/ResearchRanking.html",
+      "record_count": 50,
+      "availability": "parsed"
+    },
+    {
+      "year": 2021,
+      "category_original": "Universities",
+      "category_standard": "University",
+      "url": "https://www.nirfindia.org/Rankings/2021/UniversityRanking.html",
+      "local_file": "data/raw/2021/UniversityRanking.html",
+      "record_count": 600,
+      "availability": "parsed"
+    },
+    {
+      "year": 2022,
+      "category_original": "Architecture and Planning",
+      "category_standard": "Architecture & Planning",
+      "url": "https://www.nirfindia.org/Rankings/2022/ArchitectureRanking.html",
+      "local_file": "data/raw/2022/ArchitectureRanking.html",
+      "record_count": 30,
+      "availability": "parsed"
+    },
+    {
+      "year": 2022,
+      "category_original": "Colleges",
+      "category_standard": "College",
+      "url": "https://www.nirfindia.org/Rankings/2022/CollegeRanking.html",
+      "local_file": "data/raw/2022/CollegeRanking.html",
+      "record_count": 100,
+      "availability": "parsed"
+    },
+    {
+      "year": 2022,
+      "category_original": "Dental",
+      "category_standard": "Dental",
+      "url": "https://www.nirfindia.org/Rankings/2022/DentalRanking.html",
+      "local_file": "data/raw/2022/DentalRanking.html",
+      "record_count": 40,
+      "availability": "parsed"
+    },
+    {
+      "year": 2022,
+      "category_original": "Engineering",
+      "category_standard": "Engineering",
+      "url": "https://www.nirfindia.org/Rankings/2022/EngineeringRanking.html",
+      "local_file": "data/raw/2022/EngineeringRanking.html",
+      "record_count": 200,
+      "availability": "parsed"
+    },
+    {
+      "year": 2022,
+      "category_original": "Law",
+      "category_standard": "Law",
+      "url": "https://www.nirfindia.org/Rankings/2022/LawRanking.html",
+      "local_file": "data/raw/2022/LawRanking.html",
+      "record_count": 30,
+      "availability": "parsed"
+    },
+    {
+      "year": 2022,
+      "category_original": "Management",
+      "category_standard": "Management",
+      "url": "https://www.nirfindia.org/Rankings/2022/ManagementRanking.html",
+      "local_file": "data/raw/2022/ManagementRanking.html",
+      "record_count": 101,
+      "availability": "parsed"
+    },
+    {
+      "year": 2022,
+      "category_original": "Medical",
+      "category_standard": "Medical",
+      "url": "https://www.nirfindia.org/Rankings/2022/MedicalRanking.html",
+      "local_file": "data/raw/2022/MedicalRanking.html",
+      "record_count": 50,
+      "availability": "parsed"
+    },
+    {
+      "year": 2022,
+      "category_original": "Overall",
+      "category_standard": "Overall",
+      "url": "https://www.nirfindia.org/Rankings/2022/OverallRanking.html",
+      "local_file": "data/raw/2022/OverallRanking.html",
+      "record_count": 100,
+      "availability": "parsed"
+    },
+    {
+      "year": 2022,
+      "category_original": "Pharmacy",
+      "category_standard": "Pharmacy",
+      "url": "https://www.nirfindia.org/Rankings/2022/PharmacyRanking.html",
+      "local_file": "data/raw/2022/PharmacyRanking.html",
+      "record_count": 101,
+      "availability": "parsed"
+    },
+    {
+      "year": 2022,
+      "category_original": "Research Institutions",
+      "category_standard": "Research Institution",
+      "url": "https://www.nirfindia.org/Rankings/2022/ResearchRanking.html",
+      "local_file": "data/raw/2022/ResearchRanking.html",
+      "record_count": 50,
+      "availability": "parsed"
+    },
+    {
+      "year": 2022,
+      "category_original": "Universities",
+      "category_standard": "University",
+      "url": "https://www.nirfindia.org/Rankings/2022/UniversityRanking.html",
+      "local_file": "data/raw/2022/UniversityRanking.html",
+      "record_count": 600,
+      "availability": "parsed"
+    },
+    {
+      "year": 2023,
+      "category_original": "Agriculture and Allied Sectors",
+      "category_standard": "Agriculture & Allied Sectors",
+      "url": "https://www.nirfindia.org/Rankings/2023/AgricultureRanking.html",
+      "local_file": "data/raw/2023/AgricultureRanking.html",
+      "record_count": 40,
+      "availability": "parsed"
+    },
+    {
+      "year": 2023,
+      "category_original": "Architecture and Planning",
+      "category_standard": "Architecture & Planning",
+      "url": "https://www.nirfindia.org/Rankings/2023/ArchitectureRanking.html",
+      "local_file": "data/raw/2023/ArchitectureRanking.html",
+      "record_count": 30,
+      "availability": "parsed"
+    },
+    {
+      "year": 2023,
+      "category_original": "Colleges",
+      "category_standard": "College",
+      "url": "https://www.nirfindia.org/Rankings/2023/CollegeRanking.html",
+      "local_file": "data/raw/2023/CollegeRanking.html",
+      "record_count": 100,
+      "availability": "parsed"
+    },
+    {
+      "year": 2023,
+      "category_original": "Dental",
+      "category_standard": "Dental",
+      "url": "https://www.nirfindia.org/Rankings/2023/DentalRanking.html",
+      "local_file": "data/raw/2023/DentalRanking.html",
+      "record_count": 40,
+      "availability": "parsed"
+    },
+    {
+      "year": 2023,
+      "category_original": "Engineering",
+      "category_standard": "Engineering",
+      "url": "https://www.nirfindia.org/Rankings/2023/EngineeringRanking.html",
+      "local_file": "data/raw/2023/EngineeringRanking.html",
+      "record_count": 100,
+      "availability": "parsed"
+    },
+    {
+      "year": 2023,
+      "category_original": "Innovation",
+      "category_standard": "Innovation",
+      "url": "https://www.nirfindia.org/Rankings/2023/InnovationRanking.html",
+      "local_file": "data/raw/2023/InnovationRanking.html",
+      "record_count": 10,
+      "availability": "parsed"
+    },
+    {
+      "year": 2023,
+      "category_original": "Law",
+      "category_standard": "Law",
+      "url": "https://www.nirfindia.org/Rankings/2023/LawRanking.html",
+      "local_file": "data/raw/2023/LawRanking.html",
+      "record_count": 30,
+      "availability": "parsed"
+    },
+    {
+      "year": 2023,
+      "category_original": "Management",
+      "category_standard": "Management",
+      "url": "https://www.nirfindia.org/Rankings/2023/ManagementRanking.html",
+      "local_file": "data/raw/2023/ManagementRanking.html",
+      "record_count": 100,
+      "availability": "parsed"
+    },
+    {
+      "year": 2023,
+      "category_original": "Medical",
+      "category_standard": "Medical",
+      "url": "https://www.nirfindia.org/Rankings/2023/MedicalRanking.html",
+      "local_file": "data/raw/2023/MedicalRanking.html",
+      "record_count": 50,
+      "availability": "parsed"
+    },
+    {
+      "year": 2023,
+      "category_original": "Overall",
+      "category_standard": "Overall",
+      "url": "https://www.nirfindia.org/Rankings/2023/OverallRanking.html",
+      "local_file": "data/raw/2023/OverallRanking.html",
+      "record_count": 100,
+      "availability": "parsed"
+    },
+    {
+      "year": 2023,
+      "category_original": "Pharmacy",
+      "category_standard": "Pharmacy",
+      "url": "https://www.nirfindia.org/Rankings/2023/PharmacyRanking.html",
+      "local_file": "data/raw/2023/PharmacyRanking.html",
+      "record_count": 100,
+      "availability": "parsed"
+    },
+    {
+      "year": 2023,
+      "category_original": "Research Institutions",
+      "category_standard": "Research Institution",
+      "url": "https://www.nirfindia.org/Rankings/2023/ResearchRanking.html",
+      "local_file": "data/raw/2023/ResearchRanking.html",
+      "record_count": 50,
+      "availability": "parsed"
+    },
+    {
+      "year": 2023,
+      "category_original": "Universities",
+      "category_standard": "University",
+      "url": "https://www.nirfindia.org/Rankings/2023/UniversityRanking.html",
+      "local_file": "data/raw/2023/UniversityRanking.html",
+      "record_count": 600,
+      "availability": "parsed"
+    },
+    {
+      "year": 2024,
+      "category_original": "Agriculture and Allied Sectors",
+      "category_standard": "Agriculture & Allied Sectors",
+      "url": "https://www.nirfindia.org/Rankings/2024/AgricultureRanking.html",
+      "local_file": "data/raw/2024/AgricultureRanking.html",
+      "record_count": 40,
+      "availability": "parsed"
+    },
+    {
+      "year": 2024,
+      "category_original": "Architecture and Planning",
+      "category_standard": "Architecture & Planning",
+      "url": "https://www.nirfindia.org/Rankings/2024/ArchitectureRanking.html",
+      "local_file": "data/raw/2024/ArchitectureRanking.html",
+      "record_count": 40,
+      "availability": "parsed"
+    },
+    {
+      "year": 2024,
+      "category_original": "Colleges",
+      "category_standard": "College",
+      "url": "https://www.nirfindia.org/Rankings/2024/CollegeRanking.html",
+      "local_file": "data/raw/2024/CollegeRanking.html",
+      "record_count": 100,
+      "availability": "parsed"
+    },
+    {
+      "year": 2024,
+      "category_original": "Dental",
+      "category_standard": "Dental",
+      "url": "https://www.nirfindia.org/Rankings/2024/DentalRanking.html",
+      "local_file": "data/raw/2024/DentalRanking.html",
+      "record_count": 40,
+      "availability": "parsed"
+    },
+    {
+      "year": 2024,
+      "category_original": "Engineering",
+      "category_standard": "Engineering",
+      "url": "https://www.nirfindia.org/Rankings/2024/EngineeringRanking.html",
+      "local_file": "data/raw/2024/EngineeringRanking.html",
+      "record_count": 100,
+      "availability": "parsed"
+    },
+    {
+      "year": 2024,
+      "category_original": "Innovation",
+      "category_standard": "Innovation",
+      "url": "https://www.nirfindia.org/Rankings/2024/InnovationRanking.html",
+      "local_file": "data/raw/2024/InnovationRanking.html",
+      "record_count": 10,
+      "availability": "parsed"
+    },
+    {
+      "year": 2024,
+      "category_original": "Law",
+      "category_standard": "Law",
+      "url": "https://www.nirfindia.org/Rankings/2024/LawRanking.html",
+      "local_file": "data/raw/2024/LawRanking.html",
+      "record_count": 40,
+      "availability": "parsed"
+    },
+    {
+      "year": 2024,
+      "category_original": "Management",
+      "category_standard": "Management",
+      "url": "https://www.nirfindia.org/Rankings/2024/ManagementRanking.html",
+      "local_file": "data/raw/2024/ManagementRanking.html",
+      "record_count": 100,
+      "availability": "parsed"
+    },
+    {
+      "year": 2024,
+      "category_original": "Medical",
+      "category_standard": "Medical",
+      "url": "https://www.nirfindia.org/Rankings/2024/MedicalRanking.html",
+      "local_file": "data/raw/2024/MedicalRanking.html",
+      "record_count": 50,
+      "availability": "parsed"
+    },
+    {
+      "year": 2024,
+      "category_original": "Open Universities",
+      "category_standard": "Open University",
+      "url": "https://www.nirfindia.org/Rankings/2024/OpenUniversityRanking.html",
+      "local_file": "data/raw/2024/OpenUniversityRanking.html",
+      "record_count": 3,
+      "availability": "parsed"
+    },
+    {
+      "year": 2024,
+      "category_original": "Overall",
+      "category_standard": "Overall",
+      "url": "https://www.nirfindia.org/Rankings/2024/OverallRanking.html",
+      "local_file": "data/raw/2024/OverallRanking.html",
+      "record_count": 100,
+      "availability": "parsed"
+    },
+    {
+      "year": 2024,
+      "category_original": "Pharmacy",
+      "category_standard": "Pharmacy",
+      "url": "https://www.nirfindia.org/Rankings/2024/PharmacyRanking.html",
+      "local_file": "data/raw/2024/PharmacyRanking.html",
+      "record_count": 100,
+      "availability": "parsed"
+    },
+    {
+      "year": 2024,
+      "category_original": "Research Institutions",
+      "category_standard": "Research Institution",
+      "url": "https://www.nirfindia.org/Rankings/2024/ResearchRanking.html",
+      "local_file": "data/raw/2024/ResearchRanking.html",
+      "record_count": 50,
+      "availability": "parsed"
+    },
+    {
+      "year": 2024,
+      "category_original": "Skill Universities",
+      "category_standard": "Skill University",
+      "url": "https://www.nirfindia.org/Rankings/2024/SkillUniversityRanking.html",
+      "local_file": "data/raw/2024/SkillUniversityRanking.html",
+      "record_count": 3,
+      "availability": "parsed"
+    },
+    {
+      "year": 2024,
+      "category_original": "State Public Universities",
+      "category_standard": "State Public University",
+      "url": "https://www.nirfindia.org/Rankings/2024/StatePublicUniversityRanking.html",
+      "local_file": "data/raw/2024/StatePublicUniversityRanking.html",
+      "record_count": 50,
+      "availability": "parsed"
+    },
+    {
+      "year": 2024,
+      "category_original": "Universities",
+      "category_standard": "University",
+      "url": "https://www.nirfindia.org/Rankings/2024/UniversityRanking.html",
+      "local_file": "data/raw/2024/UniversityRanking.html",
+      "record_count": 600,
+      "availability": "parsed"
+    },
+    {
+      "year": 2025,
+      "category_original": "Agriculture and Allied Sectors",
+      "category_standard": "Agriculture & Allied Sectors",
+      "url": "https://www.nirfindia.org/Rankings/2025/AgricultureRanking.html",
+      "local_file": "data/raw/2025/AgricultureRanking.html",
+      "record_count": 40,
+      "availability": "parsed"
+    },
+    {
+      "year": 2025,
+      "category_original": "Architecture and Planning",
+      "category_standard": "Architecture & Planning",
+      "url": "https://www.nirfindia.org/Rankings/2025/ArchitectureRanking.html",
+      "local_file": "data/raw/2025/ArchitectureRanking.html",
+      "record_count": 40,
+      "availability": "parsed"
+    },
+    {
+      "year": 2025,
+      "category_original": "Colleges",
+      "category_standard": "College",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRanking.html",
+      "local_file": "data/raw/2025/CollegeRanking.html",
+      "record_count": 100,
+      "availability": "parsed"
+    },
+    {
+      "year": 2025,
+      "category_original": "Dental",
+      "category_standard": "Dental",
+      "url": "https://www.nirfindia.org/Rankings/2025/DentalRanking.html",
+      "local_file": "data/raw/2025/DentalRanking.html",
+      "record_count": 40,
+      "availability": "parsed"
+    },
+    {
+      "year": 2025,
+      "category_original": "Engineering",
+      "category_standard": "Engineering",
+      "url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html",
+      "local_file": "data/raw/2025/EngineeringRanking.html",
+      "record_count": 100,
+      "availability": "parsed"
+    },
+    {
+      "year": 2025,
+      "category_original": "Innovation",
+      "category_standard": "Innovation",
+      "url": "https://www.nirfindia.org/Rankings/2025/InnovationRanking.html",
+      "local_file": "data/raw/2025/InnovationRanking.html",
+      "record_count": 10,
+      "availability": "parsed"
+    },
+    {
+      "year": 2025,
+      "category_original": "Law",
+      "category_standard": "Law",
+      "url": "https://www.nirfindia.org/Rankings/2025/LawRanking.html",
+      "local_file": "data/raw/2025/LawRanking.html",
+      "record_count": 40,
+      "availability": "parsed"
+    },
+    {
+      "year": 2025,
+      "category_original": "Management",
+      "category_standard": "Management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+      "local_file": "data/raw/2025/ManagementRanking.html",
+      "record_count": 100,
+      "availability": "parsed"
+    },
+    {
+      "year": 2025,
+      "category_original": "Medical",
+      "category_standard": "Medical",
+      "url": "https://www.nirfindia.org/Rankings/2025/MedicalRanking.html",
+      "local_file": "data/raw/2025/MedicalRanking.html",
+      "record_count": 50,
+      "availability": "parsed"
+    },
+    {
+      "year": 2025,
+      "category_original": "Open Universities",
+      "category_standard": "Open University",
+      "url": "https://www.nirfindia.org/Rankings/2025/OpenUniversityRanking.html",
+      "local_file": "data/raw/2025/OpenUniversityRanking.html",
+      "record_count": 3,
+      "availability": "parsed"
+    },
+    {
+      "year": 2025,
+      "category_original": "Overall",
+      "category_standard": "Overall",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRanking.html",
+      "local_file": "data/raw/2025/OverallRanking.html",
+      "record_count": 100,
+      "availability": "parsed"
+    },
+    {
+      "year": 2025,
+      "category_original": "Pharmacy",
+      "category_standard": "Pharmacy",
+      "url": "https://www.nirfindia.org/Rankings/2025/PharmacyRanking.html",
+      "local_file": "data/raw/2025/PharmacyRanking.html",
+      "record_count": 101,
+      "availability": "parsed"
+    },
+    {
+      "year": 2025,
+      "category_original": "Research Institutions",
+      "category_standard": "Research Institution",
+      "url": "https://www.nirfindia.org/Rankings/2025/ResearchRanking.html",
+      "local_file": "data/raw/2025/ResearchRanking.html",
+      "record_count": 50,
+      "availability": "parsed"
+    },
+    {
+      "year": 2025,
+      "category_original": "Skill Universities",
+      "category_standard": "Skill University",
+      "url": "https://www.nirfindia.org/Rankings/2025/SkillUniversityRanking.html",
+      "local_file": "data/raw/2025/SkillUniversityRanking.html",
+      "record_count": 3,
+      "availability": "parsed"
+    },
+    {
+      "year": 2025,
+      "category_original": "State Public Universities",
+      "category_standard": "State Public University",
+      "url": "https://www.nirfindia.org/Rankings/2025/StatePublicUniversityRanking.html",
+      "local_file": "data/raw/2025/StatePublicUniversityRanking.html",
+      "record_count": 50,
+      "availability": "parsed"
+    },
+    {
+      "year": 2025,
+      "category_original": "Universities",
+      "category_standard": "University",
+      "url": "https://www.nirfindia.org/Rankings/2025/UniversityRanking.html",
+      "local_file": "data/raw/2025/UniversityRanking.html",
+      "record_count": 600,
+      "availability": "parsed"
+    }
+  ],
+  "duplicate_rows_removed": 8725,
+  "missing_value_counts": {
+    "institution_id_original": 0,
+    "institution_name_original": 0,
+    "state_original": 0,
+    "city_original": 10,
+    "rank": 1,
+    "rank_label": 0,
+    "score": 43,
+    "tlr": 293,
+    "rpc": 293,
+    "go": 293,
+    "oi": 293,
+    "perception": 293
+  },
+  "records_by_year_category": [
+    {
+      "year": 2017,
+      "category_standard": "College",
+      "record_count": 100,
+      "duplicates_removed": 500,
+      "missing_exact_ranks": [
+        45,
+        60
+      ],
+      "tied_exact_ranks": [
+        44,
+        59
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2017,
+      "category_standard": "Engineering",
+      "record_count": 100,
+      "duplicates_removed": 500,
+      "missing_exact_ranks": [
+        29,
+        32,
+        71
+      ],
+      "tied_exact_ranks": [
+        28,
+        31,
+        70
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2017,
+      "category_standard": "Management",
+      "record_count": 50,
+      "duplicates_removed": 250,
+      "missing_exact_ranks": [
+        36
+      ],
+      "tied_exact_ranks": [
+        35
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2017,
+      "category_standard": "Overall",
+      "record_count": 100,
+      "duplicates_removed": 500,
+      "missing_exact_ranks": [
+        36
+      ],
+      "tied_exact_ranks": [
+        35
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2017,
+      "category_standard": "Pharmacy",
+      "record_count": 50,
+      "duplicates_removed": 250,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2017,
+      "category_standard": "University",
+      "record_count": 100,
+      "duplicates_removed": 500,
+      "missing_exact_ranks": [
+        22,
+        84
+      ],
+      "tied_exact_ranks": [
+        21,
+        83
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2018,
+      "category_standard": "Architecture & Planning",
+      "record_count": 10,
+      "duplicates_removed": 50,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2018,
+      "category_standard": "College",
+      "record_count": 100,
+      "duplicates_removed": 500,
+      "missing_exact_ranks": [
+        3,
+        66,
+        75,
+        78
+      ],
+      "tied_exact_ranks": [
+        65,
+        74,
+        77
+      ],
+      "withdrawn_rows": 1,
+      "unexplained_missing_ranks": [
+        3
+      ]
+    },
+    {
+      "year": 2018,
+      "category_standard": "Engineering",
+      "record_count": 100,
+      "duplicates_removed": 500,
+      "missing_exact_ranks": [
+        28,
+        30,
+        40,
+        86
+      ],
+      "tied_exact_ranks": [
+        39,
+        85
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": [
+        28,
+        30
+      ]
+    },
+    {
+      "year": 2018,
+      "category_standard": "Law",
+      "record_count": 10,
+      "duplicates_removed": 50,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2018,
+      "category_standard": "Management",
+      "record_count": 50,
+      "duplicates_removed": 250,
+      "missing_exact_ranks": [
+        35
+      ],
+      "tied_exact_ranks": [
+        34
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2018,
+      "category_standard": "Medical",
+      "record_count": 25,
+      "duplicates_removed": 125,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2018,
+      "category_standard": "Overall",
+      "record_count": 100,
+      "duplicates_removed": 500,
+      "missing_exact_ranks": [
+        53,
+        87
+      ],
+      "tied_exact_ranks": [
+        52,
+        86
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2018,
+      "category_standard": "Pharmacy",
+      "record_count": 50,
+      "duplicates_removed": 250,
+      "missing_exact_ranks": [
+        23
+      ],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": [
+        23
+      ]
+    },
+    {
+      "year": 2018,
+      "category_standard": "University",
+      "record_count": 100,
+      "duplicates_removed": 500,
+      "missing_exact_ranks": [
+        35,
+        60,
+        93
+      ],
+      "tied_exact_ranks": [
+        34,
+        59,
+        92
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2019,
+      "category_standard": "Architecture & Planning",
+      "record_count": 15,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2019,
+      "category_standard": "College",
+      "record_count": 100,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        48,
+        52,
+        55,
+        60,
+        73
+      ],
+      "tied_exact_ranks": [
+        47,
+        51,
+        54,
+        59,
+        72
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2019,
+      "category_standard": "Engineering",
+      "record_count": 200,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        92,
+        102,
+        118,
+        119,
+        129,
+        135,
+        140,
+        146,
+        151,
+        158,
+        175,
+        181,
+        187,
+        190,
+        199
+      ],
+      "tied_exact_ranks": [
+        91,
+        101,
+        117,
+        128,
+        134,
+        139,
+        145,
+        150,
+        157,
+        174,
+        180,
+        186,
+        189,
+        198
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2019,
+      "category_standard": "Law",
+      "record_count": 15,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2019,
+      "category_standard": "Management",
+      "record_count": 75,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        21
+      ],
+      "tied_exact_ranks": [
+        20
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2019,
+      "category_standard": "Medical",
+      "record_count": 30,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2019,
+      "category_standard": "Overall",
+      "record_count": 100,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        73
+      ],
+      "tied_exact_ranks": [
+        72,
+        99
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2019,
+      "category_standard": "Pharmacy",
+      "record_count": 75,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        38
+      ],
+      "tied_exact_ranks": [
+        37
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2019,
+      "category_standard": "University",
+      "record_count": 100,
+      "duplicates_removed": 500,
+      "missing_exact_ranks": [
+        49,
+        71,
+        78,
+        94,
+        96
+      ],
+      "tied_exact_ranks": [
+        48,
+        70,
+        77,
+        93,
+        95
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2020,
+      "category_standard": "Architecture & Planning",
+      "record_count": 20,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2020,
+      "category_standard": "College",
+      "record_count": 100,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        8,
+        44,
+        81,
+        89,
+        91
+      ],
+      "tied_exact_ranks": [
+        7,
+        43,
+        80,
+        88,
+        90
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2020,
+      "category_standard": "Dental",
+      "record_count": 30,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2020,
+      "category_standard": "Engineering",
+      "record_count": 200,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        94,
+        105,
+        140,
+        146,
+        161
+      ],
+      "tied_exact_ranks": [
+        93,
+        104,
+        139,
+        145,
+        160
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2020,
+      "category_standard": "Law",
+      "record_count": 20,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2020,
+      "category_standard": "Management",
+      "record_count": 75,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        13,
+        38,
+        64
+      ],
+      "tied_exact_ranks": [
+        12,
+        37,
+        63
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2020,
+      "category_standard": "Medical",
+      "record_count": 40,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        28,
+        39
+      ],
+      "tied_exact_ranks": [
+        27,
+        38
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2020,
+      "category_standard": "Overall",
+      "record_count": 101,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        45,
+        52,
+        55,
+        86
+      ],
+      "tied_exact_ranks": [
+        44,
+        51,
+        54,
+        85,
+        100
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2020,
+      "category_standard": "Pharmacy",
+      "record_count": 75,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        50,
+        74
+      ],
+      "tied_exact_ranks": [
+        49,
+        73
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2020,
+      "category_standard": "University",
+      "record_count": 100,
+      "duplicates_removed": 500,
+      "missing_exact_ranks": [
+        40,
+        79
+      ],
+      "tied_exact_ranks": [
+        39,
+        78
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2021,
+      "category_standard": "Architecture & Planning",
+      "record_count": 25,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2021,
+      "category_standard": "College",
+      "record_count": 100,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        28,
+        76,
+        83,
+        90
+      ],
+      "tied_exact_ranks": [
+        27,
+        75,
+        82,
+        89
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2021,
+      "category_standard": "Dental",
+      "record_count": 40,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2021,
+      "category_standard": "Engineering",
+      "record_count": 200,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        24,
+        140,
+        142,
+        145,
+        162,
+        173,
+        174,
+        187,
+        198
+      ],
+      "tied_exact_ranks": [
+        23,
+        139,
+        141,
+        144,
+        161,
+        172,
+        186,
+        197
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2021,
+      "category_standard": "Law",
+      "record_count": 30,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2021,
+      "category_standard": "Management",
+      "record_count": 75,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        39
+      ],
+      "tied_exact_ranks": [
+        38
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2021,
+      "category_standard": "Medical",
+      "record_count": 50,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        44
+      ],
+      "tied_exact_ranks": [
+        43
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2021,
+      "category_standard": "Overall",
+      "record_count": 100,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        44,
+        55,
+        63,
+        91
+      ],
+      "tied_exact_ranks": [
+        43,
+        54,
+        62,
+        90
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2021,
+      "category_standard": "Pharmacy",
+      "record_count": 75,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        70,
+        73
+      ],
+      "tied_exact_ranks": [
+        69,
+        72
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2021,
+      "category_standard": "Research Institution",
+      "record_count": 50,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2021,
+      "category_standard": "University",
+      "record_count": 100,
+      "duplicates_removed": 500,
+      "missing_exact_ranks": [
+        36,
+        74
+      ],
+      "tied_exact_ranks": [
+        35,
+        73
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2022,
+      "category_standard": "Architecture & Planning",
+      "record_count": 30,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2022,
+      "category_standard": "College",
+      "record_count": 100,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        15,
+        64,
+        71,
+        95,
+        98
+      ],
+      "tied_exact_ranks": [
+        14,
+        63,
+        70,
+        94,
+        97
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2022,
+      "category_standard": "Dental",
+      "record_count": 40,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2022,
+      "category_standard": "Engineering",
+      "record_count": 200,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        103,
+        109,
+        126,
+        130,
+        132,
+        151,
+        155,
+        168,
+        176
+      ],
+      "tied_exact_ranks": [
+        102,
+        108,
+        125,
+        129,
+        131,
+        150,
+        154,
+        167,
+        175
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2022,
+      "category_standard": "Law",
+      "record_count": 30,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2022,
+      "category_standard": "Management",
+      "record_count": 101,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        37,
+        61,
+        79,
+        97
+      ],
+      "tied_exact_ranks": [
+        36,
+        60,
+        78,
+        96,
+        100
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2022,
+      "category_standard": "Medical",
+      "record_count": 50,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2022,
+      "category_standard": "Overall",
+      "record_count": 100,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        55,
+        56,
+        77
+      ],
+      "tied_exact_ranks": [
+        54,
+        76
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2022,
+      "category_standard": "Pharmacy",
+      "record_count": 101,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [
+        100
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2022,
+      "category_standard": "Research Institution",
+      "record_count": 50,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2022,
+      "category_standard": "University",
+      "record_count": 100,
+      "duplicates_removed": 500,
+      "missing_exact_ranks": [
+        21,
+        23,
+        37,
+        42,
+        46,
+        82,
+        89,
+        90
+      ],
+      "tied_exact_ranks": [
+        20,
+        22,
+        36,
+        41,
+        45,
+        81,
+        88
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2023,
+      "category_standard": "Agriculture & Allied Sectors",
+      "record_count": 40,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2023,
+      "category_standard": "Architecture & Planning",
+      "record_count": 30,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2023,
+      "category_standard": "College",
+      "record_count": 100,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        10,
+        23,
+        35
+      ],
+      "tied_exact_ranks": [
+        9,
+        22,
+        34
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2023,
+      "category_standard": "Dental",
+      "record_count": 40,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2023,
+      "category_standard": "Engineering",
+      "record_count": 100,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        42
+      ],
+      "tied_exact_ranks": [
+        41
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2023,
+      "category_standard": "Innovation",
+      "record_count": 10,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        9
+      ],
+      "tied_exact_ranks": [
+        8
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2023,
+      "category_standard": "Law",
+      "record_count": 30,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2023,
+      "category_standard": "Management",
+      "record_count": 100,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        50
+      ],
+      "tied_exact_ranks": [
+        49
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2023,
+      "category_standard": "Medical",
+      "record_count": 50,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        33
+      ],
+      "tied_exact_ranks": [
+        32
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2023,
+      "category_standard": "Overall",
+      "record_count": 100,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        67,
+        68
+      ],
+      "tied_exact_ranks": [
+        66
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2023,
+      "category_standard": "Pharmacy",
+      "record_count": 100,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        84
+      ],
+      "tied_exact_ranks": [
+        83
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2023,
+      "category_standard": "Research Institution",
+      "record_count": 50,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2023,
+      "category_standard": "University",
+      "record_count": 100,
+      "duplicates_removed": 500,
+      "missing_exact_ranks": [
+        64
+      ],
+      "tied_exact_ranks": [
+        63
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2024,
+      "category_standard": "Agriculture & Allied Sectors",
+      "record_count": 40,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        25
+      ],
+      "tied_exact_ranks": [
+        24
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2024,
+      "category_standard": "Architecture & Planning",
+      "record_count": 40,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        26
+      ],
+      "tied_exact_ranks": [
+        25
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2024,
+      "category_standard": "College",
+      "record_count": 100,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        4,
+        40,
+        50,
+        68,
+        83,
+        90
+      ],
+      "tied_exact_ranks": [
+        3,
+        39,
+        49,
+        67,
+        82,
+        89
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2024,
+      "category_standard": "Dental",
+      "record_count": 40,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2024,
+      "category_standard": "Engineering",
+      "record_count": 100,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        65
+      ],
+      "tied_exact_ranks": [
+        64
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2024,
+      "category_standard": "Innovation",
+      "record_count": 10,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2024,
+      "category_standard": "Law",
+      "record_count": 40,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        32
+      ],
+      "tied_exact_ranks": [
+        31,
+        39
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2024,
+      "category_standard": "Management",
+      "record_count": 100,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        30
+      ],
+      "tied_exact_ranks": [
+        29
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2024,
+      "category_standard": "Medical",
+      "record_count": 50,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        36
+      ],
+      "tied_exact_ranks": [
+        35
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2024,
+      "category_standard": "Open University",
+      "record_count": 3,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2024,
+      "category_standard": "Overall",
+      "record_count": 100,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        65
+      ],
+      "tied_exact_ranks": [
+        64
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2024,
+      "category_standard": "Pharmacy",
+      "record_count": 100,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        17,
+        75
+      ],
+      "tied_exact_ranks": [
+        16,
+        74
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2024,
+      "category_standard": "Research Institution",
+      "record_count": 50,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2024,
+      "category_standard": "Skill University",
+      "record_count": 3,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2024,
+      "category_standard": "State Public University",
+      "record_count": 50,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2024,
+      "category_standard": "University",
+      "record_count": 100,
+      "duplicates_removed": 500,
+      "missing_exact_ranks": [
+        41,
+        91
+      ],
+      "tied_exact_ranks": [
+        40,
+        90
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2025,
+      "category_standard": "Agriculture & Allied Sectors",
+      "record_count": 40,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        25,
+        32
+      ],
+      "tied_exact_ranks": [
+        24,
+        31
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2025,
+      "category_standard": "Architecture & Planning",
+      "record_count": 40,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2025,
+      "category_standard": "College",
+      "record_count": 100,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        68,
+        77
+      ],
+      "tied_exact_ranks": [
+        67,
+        76
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2025,
+      "category_standard": "Dental",
+      "record_count": 40,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2025,
+      "category_standard": "Engineering",
+      "record_count": 100,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        68
+      ],
+      "tied_exact_ranks": [
+        67
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2025,
+      "category_standard": "Innovation",
+      "record_count": 10,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2025,
+      "category_standard": "Law",
+      "record_count": 40,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2025,
+      "category_standard": "Management",
+      "record_count": 100,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        47,
+        58
+      ],
+      "tied_exact_ranks": [
+        46,
+        57
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2025,
+      "category_standard": "Medical",
+      "record_count": 50,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2025,
+      "category_standard": "Open University",
+      "record_count": 3,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2025,
+      "category_standard": "Overall",
+      "record_count": 100,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        28,
+        65
+      ],
+      "tied_exact_ranks": [
+        27,
+        64
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2025,
+      "category_standard": "Pharmacy",
+      "record_count": 101,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [
+        84
+      ],
+      "tied_exact_ranks": [
+        83,
+        100
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2025,
+      "category_standard": "Research Institution",
+      "record_count": 50,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2025,
+      "category_standard": "Skill University",
+      "record_count": 3,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2025,
+      "category_standard": "State Public University",
+      "record_count": 50,
+      "duplicates_removed": 0,
+      "missing_exact_ranks": [],
+      "tied_exact_ranks": [],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    },
+    {
+      "year": 2025,
+      "category_standard": "University",
+      "record_count": 100,
+      "duplicates_removed": 500,
+      "missing_exact_ranks": [
+        27,
+        86
+      ],
+      "tied_exact_ranks": [
+        26,
+        85
+      ],
+      "withdrawn_rows": 0,
+      "unexplained_missing_ranks": []
+    }
+  ],
+  "notes": [
+    "The raw HTML archive is retained (byte-for-byte) for reproducibility.",
+    "A missing category is not imputed as zero and is not assumed to have existed in every year.",
+    "Parameter scores remain null unless they are extracted from a supported source-table schema.",
+    "Rows published as 'Rank Withdrawn' are kept with rank = null and record_status = rank_withdrawn; exclude them from rank-based analysis.",
+    "Ranking pages repeat the table (full score plus per-parameter views), so large duplicates_removed counts are expected.",
+    "Rank bands preserve rank_label; rank stores only the first numeric value for convenience and must not be treated as an exact rank for a band.",
+    "HTTP 404 responses for candidate category URLs are expected for categories that did not exist in a given year."
+  ],
+  "total_records": 6966,
+  "years_with_records": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "years_without_records": [],
+  "registry_entries": 101,
+  "collection_error_count": 0,
+  "is_complete": true
+}

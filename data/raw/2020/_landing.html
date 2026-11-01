@@ -1,0 +1,687 @@
+
+<!doctype html><html class="no-js" lang="en"><meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+    <script nonce="x5cNcwg5WeybT3KpEeCS" async="" src="//www.google-analytics.com/analytics.js"></script>
+    <script nonce="x5cNcwg5WeybT3KpEeCS">
+        (function (i, s, o, g, r, a, m) { i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o), m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m) })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga'); ga('create', 'UA-75867016-1', 'auto'); ga('send', 'pageview');</script>
+    <meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> MoE, National Institute Ranking Framework (NIRF) </title>
+    <link href="~/../../../dist/css/bootstrap.min.css" rel="stylesheet" /><link href="../../css/style.css" rel="stylesheet" type="text/css" />
+    <script nonce="x5cNcwg5WeybT3KpEeCS" src="https://www.nirfindia.org/js/modernizr.js" type="text/javascript"></script>
+    <script nonce="x5cNcwg5WeybT3KpEeCS" src="https://www.nirfindia.org/js/jquery-min.js" type="text/javascript"></script>
+    <script nonce="x5cNcwg5WeybT3KpEeCS" src="https://www.nirfindia.org/js/md5.js" type="text/javascript"></script>
+    <link href="~/../../../dist/css/bootstrap.min.css" rel="stylesheet" /><link href="../../css/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://www.nirfindia.org/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://www.nirfindia.org/css/dataTables.responsive.css" rel="stylesheet" type="text/css" />
+    <script nonce="x5cNcwg5WeybT3KpEeCS" src="https://www.nirfindia.org/js/jquery-3.7.1.min.js" type="text/javascript"></script>
+    <script nonce="x5cNcwg5WeybT3KpEeCS" src="https://www.nirfindia.org/js/jquery.dataTables.min.js" type="text/javascript"></script>
+    <script nonce="x5cNcwg5WeybT3KpEeCS" src="https://www.nirfindia.org/js/dataTables.responsive.js" type="text/javascript"></script>
+    <style>
+        .btn-more-details {
+            color: #0e0e66;
+            cursor: pointer;
+            font-weight: 600;
+        }
+        .top-circle-1 {
+        }
+
+            .top-circle-1 p {
+                color: #0083cb;
+                font-weight: 700;
+                padding-top: 10px;
+            }
+
+            .top-circle-1 img {
+                border: 2px solid #0083cb;
+                border-radius: 100%;
+                padding: 5px;
+            }
+
+        .top-circle-2 {
+        }
+
+            .top-circle-2 p {
+                color: #f4b93d;
+                font-weight: 700;
+                padding-top: 10px;
+            }
+
+            .top-circle-2 img {
+                border: 2px solid #f4b93d;
+                border-radius: 100%;
+                padding: 5px;
+            }
+
+        .top-circle-3 {
+        }
+
+            .top-circle-3 p {
+                color: #8ec63f;
+                font-weight: 700;
+                padding-top: 10px;
+            }
+
+            .top-circle-3 img {
+                border: 2px solid #8ec63f;
+                border-radius: 100%;
+                padding: 5px;
+            }
+
+        .top-circle-4 {
+        }
+
+            .top-circle-4 p {
+                color: #0b2455;
+                font-weight: 700;
+                padding-top: 10px;
+            }
+
+            .top-circle-4 img {
+                border: 2px solid #0b2455;
+                border-radius: 100%;
+                padding: 5px;
+            }
+
+        .top-circle-5 {
+        }
+
+            .top-circle-5 p {
+                color: #a966a9;
+                font-weight: 700;
+                padding-top: 10px;
+            }
+
+            .top-circle-5 img {
+                border: 2px solid #a966a9;
+                border-radius: 100%;
+                padding: 5px;
+            }
+
+        .top-circle-6 {
+        }
+
+            .top-circle-6 p {
+                color: #8299cd;
+                font-weight: 700;
+                padding-top: 10px;
+            }
+
+            .top-circle-6 img {
+                border: 2px solid #8299cd;
+                border-radius: 100%;
+                padding: 5px;
+            }
+
+        .bottom-circle-bg {
+            margin: 20px 0px;
+            background-color: #e2f2ff;
+            padding: 20px 12px;
+            border-radius: 10px;
+        }
+
+        .bottom-circle-1 {
+        }
+
+            .bottom-circle-1 p {
+                color: #d14f67;
+                font-weight: 700;
+                padding-top: 10px;
+            }
+
+            .bottom-circle-1 img {
+                border: 2px solid #d14f67;
+                border-radius: 100%;
+                padding: 5px;
+            }
+
+        .bottom-circle-2 {
+        }
+
+            .bottom-circle-2 p {
+                color: #4bc5c6;
+                font-weight: 700;
+                padding-top: 10px;
+            }
+
+            .bottom-circle-2 img {
+                border: 2px solid #4bc5c6;
+                border-radius: 100%;
+                padding: 5px;
+            }
+
+        .bottom-circle-3 {
+        }
+
+            .bottom-circle-3 p {
+                color: #c3092c;
+                font-weight: 700;
+                padding-top: 10px;
+            }
+
+            .bottom-circle-3 img {
+                border: 2px solid #c3092c;
+                border-radius: 100%;
+                padding: 5px;
+            }
+
+        .bottom-circle-4 {
+        }
+
+            .bottom-circle-4 p {
+                color: #f46b22;
+                font-weight: 700;
+                padding-top: 10px;
+            }
+
+            .bottom-circle-4 img {
+                border: 2px solid #f46b22;
+                border-radius: 100%;
+                padding: 5px;
+            }
+
+        .bottom-circle-5 {
+        }
+
+            .bottom-circle-5 p {
+                color: #0b47bf;
+                font-weight: 700;
+                padding-top: 10px;
+            }
+
+            .bottom-circle-5 img {
+                border: 2px solid #0b47bf;
+                border-radius: 100%;
+                padding: 5px;
+            }
+
+        .bottom-circle-6 {
+        }
+
+            .bottom-circle-6 p {
+                color: #598527;
+                font-weight: 700;
+                padding-top: 10px;
+            }
+
+            .bottom-circle-6 img {
+                border: 2px solid #598527;
+                border-radius: 100%;
+                padding: 5px;
+            }
+
+        .bottom-circle-7 {
+        }
+
+            .bottom-circle-7 p {
+                color: #ea556f;
+                font-weight: 700;
+                padding-top: 10px;
+            }
+
+            .bottom-circle-7 img {
+                border: 2px solid #ea556f;
+                border-radius: 100%;
+                padding: 5px;
+            }
+
+        .lowbottom-circle-1 {
+        }
+
+            .lowbottom-circle-1 p {
+                color: #0b2455;
+                font-weight: 700;
+                padding-top: 10px;
+            }
+
+            .lowbottom-circle-1 img {
+                border: 2px solid #0b2455;
+                border-radius: 100%;
+                padding: 5px;
+            }
+
+        .lowbottom-circle-2 {
+        }
+
+            .lowbottom-circle-2 p {
+                color: #f4b93d;
+                font-weight: 700;
+                padding-top: 10px;
+            }
+
+            .lowbottom-circle-2 img {
+                border: 2px solid #f4b93d;
+                border-radius: 100%;
+                padding: 5px;
+            }
+
+        .lowbottom-circle-3 {
+        }
+
+            .lowbottom-circle-3 p {
+                color: #8299cd;
+                font-weight: 700;
+                padding-top: 10px;
+            }
+
+            .lowbottom-circle-3 img {
+                border: 2px solid #8299cd;
+                border-radius: 100%;
+                padding: 5px;
+            }
+
+        .banner-img5 a img:hover {
+            -moz-transform: scale(1.5);
+            -webkit-transform: scale(1.5);
+            -o-transform: scale(1.5);
+            -ms-transform: scale(1.5);
+            -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+        }
+
+        .banner-img4 a img:hover {
+            -moz-transform: scale(1.5);
+            -webkit-transform: scale(1.5);
+            -o-transform: scale(1.5);
+            -ms-transform: scale(1.5);
+            -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+        }
+        /**/
+
+        .nirf20_table thead tr th {
+            font-family: 'OpenSansRegular', Arial, Helvetica, sans-serif !important;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+            .nirf20_table thead tr th h5 {
+                font-family: 'OpenSansRegular', Arial, Helvetica, sans-serif !important;
+                font-size: 20px;
+                text-transform: uppercase;
+                color: #fff;
+                font-weight: 600;
+                text-align: center;
+                margin-bottom: 0;
+            }
+
+        .btn-danger {
+            background-color: #ae333f;
+            border-color: #a93a3a;
+            color: #fff;
+        }
+
+        .btn-danger {
+            background-color: #d9534f;
+            border-color: #d43f3a;
+            color: #fff;
+        }
+
+        .btn {
+            -moz-user-select: none;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            cursor: pointer;
+            display: inline-block;
+            font-size: 14px;
+            font-weight: normal;
+            line-height: 1.42857;
+            margin-bottom: 0;
+            padding: 6px 12px;
+            text-align: center;
+            vertical-align: middle;
+            white-space: nowrap;
+        }
+
+        .mg-image img {
+            -webkit-transition: all 1s ease; /* Safari and Chrome */
+            -moz-transition: all 1s ease; /* Firefox */
+            -o-transition: all 1s ease; /* IE 9 */
+            -ms-transition: all 1s ease; /* Opera */
+            transition: all 1s ease;
+            max-width: auto;
+        }
+
+        .mg-image:hover .hoverEff {
+            -webkit-transform: scale(1.20);
+            -moz-transform: scale(1.20);
+            -ms-transform: scale(1.20);
+            -o-transform: scale(1.20);
+            transform: scale(1.20);
+        }
+
+        .circleTable {
+            position: relative;
+            height: 350px;
+            background: #fff;
+        }
+
+            .circleTable td {
+                border: none;
+                padding: 10px;
+                text-align: center;
+            }
+
+                .circleTable td a {
+                    text-decoration: none;
+                }
+
+                .circleTable td img {
+                    width: 80%;
+                }
+
+        .lineImage {
+            width: 15%;
+        }
+
+        .circleTable td p {
+            text-align: center;
+            margin-top: 5px;
+            font-size: 17px;
+            font-weight: 600;
+            font-family: calibri;
+            text-decoration: none;
+            border: none;
+        }
+
+        /*.banner-text {background-image: url("bannerbg.png");background-color: #fff;background-size: 100%; background-repeat: no-repeat;margin-bottom: 25px;}
+
+        .banner-text span{display: block;text-align: center;font-family: calibri;text-decoration: none;}*/
+
+        .banner-img5 {
+            background-image: url("patti5.png");
+            background-color: #fff;
+            width: 100%;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            height: 90px;
+            display: inline-flex;
+        }
+
+        .banner-img4 {
+            background-image: url("patti4.png");
+            background-color: #fff;
+            width: 100%;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            height: 90px;
+            display: inline-flex;
+        }
+
+        .banner-img5 a {
+            width: 19%;
+            position: absolute;
+        }
+
+        .banner-img5 img {
+            width: 40%;
+            position: relative;
+        }
+
+        .banner-img4 a {
+            width: 19%;
+            position: absolute;
+        }
+
+        .banner-img4 img {
+            width: 40%;
+            position: relative;
+        }
+
+        .img-text5 {
+            display: inline-flex;
+            position: absolute;
+            width: 100%;
+        }
+
+        .img-text4 {
+            display: inline-flex;
+            position: absolute;
+            width: 80%;
+        }
+
+        .img-text5 span {
+            text-align: center;
+            display: inline-block;
+            margin-top: 15px;
+            padding: 0;
+            font-family: calibri;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            width: 233px
+        }
+
+        .img-text4 span {
+            text-align: center;
+            display: inline-block;
+            margin-top: 15px;
+            padding: 0;
+            font-family: calibri;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            width: 282px;
+        }
+
+        .banner-img5 a img {
+            width: 40%;
+            -webkit-transition: transform 0.2s ease-in-out;
+            -moz-transition: transform 0.2s ease-in-out;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .banner-img4 a img {
+            width: 40%;
+            -webkit-transition: transform 0.2s ease-in-out;
+            -moz-transition: transform 0.2s ease-in-out;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .banner-img5 a img:hover {
+            -moz-transform: scale(1.5);
+            -webkit-transform: scale(1.5);
+            -o-transform: scale(1.5);
+            -ms-transform: scale(1.5);
+            -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+        }
+
+        .banner-img4 a img:hover {
+            -moz-transform: scale(1.5);
+            -webkit-transform: scale(1.5);
+            -o-transform: scale(1.5);
+            -ms-transform: scale(1.5);
+            -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+        }
+        .navbar {
+            background-color: #0e0e66;
+        }
+
+        .navbar-toggler-icon {
+            filter: brightness(0) saturate(100%) invert(95%) sepia(97%) saturate(14%) hue-rotate(213deg) brightness(104%) contrast(104%);
+        }
+
+        .navbar-toggler {
+            border: 1px solid #ffffff;
+        }
+
+        .nav-link {
+            color: #ffffff;
+            text-transform: uppercase;
+            padding: 15px 15px;
+            margin: 0px 10px;
+        }
+
+        .dropdown-item:hover {
+            color: var(--bs-dropdown-link-hover-color);
+            background-color: var(--bs-dropdown-link-hover-bg);
+            text-decoration: none;
+        }
+
+        .nav-link:focus, .nav-link:hover {
+            color: #fff;
+            background: #ae333f;
+            text-decoration: none;
+        }
+
+        .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+            color: #ffffff;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+
+        <!--<div id="header">
+    <div class="topbar">
+        <div class="container">
+            <div class="topLinks">
+                <ul class="portalLinks">
+                    <li><a href="../../Home/GalleryView"><span class="userProfile sprite"></span>Gallery</a></li>-->
+        <!--<li>
+        <span class="loginUser"><a href="ir2018/Registration"><span class="userProfile sprite"></span>IR 2018 : Registration</a></span>
+    </li>-->
+        <!--<li><a href="../../Home/Sitemap"><span class="siteMaping sprite"></span>Sitemap</a></li>
+                    <li><a href="../../Home/Contact"><span class="siteMaping sprite"></span>Contact</a></li>
+                    <li><a href="../../Home/Archives"><span class="siteMaping sprite"></span>Archives</a></li>
+                </ul>
+            </div>
+        </div>
+    </div><div class="logobar">
+        <div class="container">
+            <div class="emblem">
+                <img src="https://www.nirfindia.org/images/emblem.png" alt="Government of India" title="Government of India" width="65" height="104">
+            </div>
+            <div class="logoText">National Institutional Ranking Framework<br><span class="logoTextSubTitle">Ministry of Education</span><br><span class="logoTextSmall">Government of India</span></div><h1 id="logo" title="MoE, National Institutional Ranking Framework (NIRF), Government of India"><a href="/Home" title="MoE, National Institutional Ranking Framework (NIRF),  Government of India"><img src="https://www.nirfindia.org/images/main-logo.png" alt="MoE, National Institutional Ranking Framework (NIRF),  Government of India" title="MoE, National Institutional Ranking Framework (NIRF),  Government of India" width="154" height="104"></a></h1>-->
+        <!-- End Logo -->
+        <!--</div>
+    </div>-->
+        <!-- Header Navigation -->
+        <!--<div class="mainNavigation">
+            <div class="container">
+                <ul id="nav">
+                    <li class="  "><a href="../../Home">Home</a></li>
+                    <li class=""><a href="../../About">About NIRF</a></li>
+                    <li class=""><a href="../../Parameter">Parameters</a></li>
+                    <li class=""><a href="../../Documents">Documents</a></li>
+                    <li class="parent  ">
+                        <a href="#" class="">Ranking</a><ul>
+                        <li class=""><a href="../2024/Ranking.html">2024</a></li>
+                            <li class=""><a href="../2023/Ranking.html">2023</a></li>
+                            <li class=""><a href="../2022/Ranking.html">2022</a></li>
+                            <li class="">
+                            <li class=""><a href="../2021/Ranking.html">2021</a></li>
+                            <li class="">
+                                <a href="../2020/Ranking2020.html">2020</a>
+                            </li>
+                            <li class="">
+                                <a href="../2019/Ranking2019.html">2019</a>
+                            </li>
+                            <li class="">
+                                <a href="../2018/Ranking2018.html">2018</a>
+                            </li>
+                            <li class="">
+                                <a href="../2017/Ranking2017.html">2017</a>
+                            </li>
+                            <li class="">
+                                <a href="../../Home/Ranking2016">2016</a>
+                            </li>
+                        </ul><i class="menuIcon">&nbsp;</i>
+                    </li>
+                    <li><a href="../../Advertisement">Notification/Advt</a></li>
+                    <li><a target="_blank" href="../../FAQs">FAQs</a></li>
+                    <li><a href="../../Contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>-->
+        <div id="my-shared-header"></div>
+        <script nonce="x5cNcwg5WeybT3KpEeCS" src="../../js/SharedHeader.js" type="text/javascript"></script>
+        <div id="wrapper">
+            <div class="container middleContent mrt">
+                <div class="content">
+                    <div class="middleAboutSection" style="margin-top:0px;">
+                        <img src="ranking2020.jpg" class="mb-5">
+                        <div class="container">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-lg-2 col-md-2 col-sm-4 col-6 top-circle-1">
+                                    <a href="OverallRanking.html" class=""><img src="Overall_WL.png" alt="Overall"></a>
+                                    <p>Overall</p>
+                                </div>
+                                <div class="col-lg-2 col-md-2 col-sm-4 col-6 top-circle-2">
+                                    <a href="UniversityRanking.html"><img src="Uni_WL.png" alt="University"></a>
+                                    <p>Universities</p>
+                                </div>
+                                <div class="col-lg-2 col-md-2 col-sm-4 col-6 top-circle-5">
+                                    <a href="EngineeringRanking.html"><img src="Eng_WL.png" alt="Engineering"></a>
+                                    <p>Engineering</p>
+                                </div>
+                                <div class="col-lg-2 col-md-2 col-sm-4 col-6 top-circle-6">
+                                    <a href="ManagementRanking.html"><img src="Manag_WL.png" alt="Management"></a>
+                                    <p>Management</p>
+                                </div>
+                                <div class="col-lg-2 col-md-2 col-sm-4 col-6 bottom-circle-1">
+                                    <a href="PharmacyRanking.html"><img src="Pharm_WL.png" alt="Pharmacy"></a>
+                                    <p>Pharmacy</p>
+                                </div>
+                                <div class="col-lg-2 col-md-2 col-sm-4 col-6 top-circle-3">
+                                    <a href="CollegeRanking.html"><img src="College_WL.png" alt="College"></a>
+                                    <p>Colleges</p>
+                                </div>
+                                <div class="col-lg-2 col-md-2 col-sm-4 col-6 bottom-circle-2">
+                                    <a href="MedicalRanking.html"><img src="Medi_WL.png" alt="Medical"></a>
+                                    <p>Medical</p>
+                                </div>
+                                <div class="col-lg-2 col-md-2 col-sm-4 col-6 bottom-circle-4">
+                                    <a href="LawRanking.html"><img src="Law_WL.png" alt="Law"></a>
+                                    <p>Law</p>
+                                </div>
+                                <div class="col-lg-2 col-md-2 col-sm-4 col-6 bottom-circle-5">
+                                    <a href="ArchitectureRanking.html"><img src="Arch_WL.png" alt="Architecture"></a>
+                                    <p>Architecture</p>
+                                </div>
+                                <div class="col-lg-2 col-md-2 col-sm-4 col-6 bottom-circle-3">
+                                    <a href="DentalRanking.html"><img src="Den_WL.png" alt="Dental"></a>
+                                    <p>Dental</p>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 style="font-family:calibri">
+                            <a style="font-size:20px;" target="_blank"> <font color="blue">Ranking Report </font> </a>
+                            <a href="/nirfpdfcdn/2020/pdf/Report/IR2020_Report.pdf" title="India Rankings 2020 Report" target="_blank"><span class="pdfIcon"> <img src="https://www.nirfindia.org/images/bgi/pdf-icon.png" alt="PDF file that opens in new window." title="PDF file that opens in new window."></span></a>
+                        </h3>
+                        <br>
+                    </div>
+                </div>
+
+
+                <!--<div id="footer">
+            <ul class="portalLinks">
+                <li><a href="/Home">Home</a></li>
+                <li><a href="../../Home/About">About NIRF</a></li>
+                <li><a href="/parameter">Parameters</a></li>
+                <li><a href="../../Home/Documents">Documents</a></li>
+
+                <li><a href="../../Home/Advertisement">Notification/Advt</a></li>
+
+                <li>
+                    <a href="../../Home/Contact">Contact</a>
+                </li>
+            </ul>
+            <p class="copyright">Copyright &copy; 2023, National Institutional Ranking Framework (NIRF), MoE. All rights reserved.</p>-->
+                <!-- hitwebcounter Code START --><!-- hitwebcounter.com -->
+                <!--<a href="https://www.nirfindia.org" title="Track My Website" target="_blank" style="font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 8px; color: #686A6F; text-decoration: none;"><strong></strong></a>
+            </div>-->
+                <div id="my-shared-footer"></div>
+            </div>
+        </div>
+
+        <a href="#top" title="Back to Top" id="backtotop" style="display: block;">Back to Top</a>
+        <script nonce="x5cNcwg5WeybT3KpEeCS" src="../../js/SharedFooter.js" type="text/javascript"></script>
+        <script nonce="x5cNcwg5WeybT3KpEeCS">$.extend($.fn.dataTable.defaults, { responsive: true }); $(document).ready(function () { $('.btn-more-details').on('click', function () { var btn = $(this); btn.parent().next().slideToggle(500, function () { if (btn.find('span').text() == 'More Details') { btn.find('span').text('Close'); } else { btn.find('span').text('More Details'); } }); }); $('#btn_show_overall').on('click', function () { $('.remove-btn-danger').removeClass('btn-danger'); $(this).addClass('btn-danger'); $('.div_to_hide').hide(); $('#div_overall').show(); }); $('#btn_show_tlr').on('click', function () { $('.remove-btn-danger').removeClass('btn-danger'); $(this).addClass('btn-danger'); $('.div_to_hide').hide(); $('#div_tlr').show(); }); $('#btn_show_rpc').on('click', function () { $('.remove-btn-danger').removeClass('btn-danger'); $(this).addClass('btn-danger'); $('.div_to_hide').hide(); $('#div_rpc').show(); }); $('#btn_show_go').on('click', function () { $('.remove-btn-danger').removeClass('btn-danger'); $(this).addClass('btn-danger'); $('.div_to_hide').hide(); $('#div_go').show(); }); $('#btn_show_oi').on('click', function () { $('.remove-btn-danger').removeClass('btn-danger'); $(this).addClass('btn-danger'); $('.div_to_hide').hide(); $('#div_oi').show(); }); $('#btn_show_pr').on('click', function () { $('.remove-btn-danger').removeClass('btn-danger'); $(this).addClass('btn-danger'); $('.div_to_hide').hide(); $('#div_pr').show(); }); $('#tbl_overall').DataTable({ "order": [[4, "desc"]], "pageLength": 100 }); $('#tbl_tlr').DataTable({ "order": [[4, "desc"]], "pageLength": 100 }); $('#tbl_rpc').DataTable({ "order": [[4, "desc"]], "pageLength": 100 }); $('#tbl_go').DataTable({ "order": [[4, "desc"]], "pageLength": 100 }); $('#tbl_oi').DataTable({ "order": [[4, "desc"]], "pageLength": 100 }); $('#tbl_pr').DataTable({ "order": [[4, "desc"]], "pageLength": 100 }); });</script>
+        <script nonce="x5cNcwg5WeybT3KpEeCS" type="text/javascript" src="https://www.nirfindia.org/js/functions.js"></script>
+        <script nonce="x5cNcwg5WeybT3KpEeCS" type="text/javascript" src="~/../../../dist/js/bootstrap.bundle.min.js"></script><script nonce="x5cNcwg5WeybT3KpEeCS" type="text/javascript" src="../../js/general.js"></script>
+</body>
+</html>
