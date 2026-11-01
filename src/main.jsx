@@ -336,22 +336,7 @@ function App() {
     setAsking(true)
     setAnswer('Connecting to NIRF Insight backend…')
     try {
-      const result = await askBackend(trimmed, {
-        year,
-        dataAvailable: dataStatus === 'ready',
-        recordCount: yearRows.length,
-        source: dataMeta.source || 'official NIRF pages archived by the preparation pipeline',
-        stateData,
-        correlation: corr,
-        correlationAvailable: isNum(corr),
-        xLabel: axisOptions.find((item) => item.key === xKey)?.label ?? xKey,
-        yLabel: axisOptions.find((item) => item.key === yKey)?.label ?? yKey,
-        institution: institutionName,
-        selected: selectedRow ? { rank: selectedRow.rank, rankLabel: rankText(selectedRow), score: selectedRow.score, sourceUrl: selectedRow.source_url } : null,
-        trend: trendData.map((row) => ({ year: row.year, rankLabel: rankText(row), score: row.score })),
-        averageScore: scores.length ? mean(scores).toFixed(2) : null,
-        medianScore: medianScore == null ? null : medianScore.toFixed(2),
-      })
+      const result = await askBackend(trimmed)
       if (ticket === askCounter.current) setAnswer(result.answer)
     } catch (error) {
       if (ticket === askCounter.current) setAnswer(`Backend error: ${error.message}`)

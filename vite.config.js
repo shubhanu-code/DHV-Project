@@ -12,6 +12,11 @@ export default defineConfig({
         target: process.env.VITE_PROXY_TARGET || "http://127.0.0.1:5000",
         changeOrigin: true,
       },
+      "/chat-api": {
+        target: process.env.VITE_CHAT_PROXY_TARGET || "http://127.0.0.1:8000",
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/chat-api/, ""),
+      },
     },
   },
 });

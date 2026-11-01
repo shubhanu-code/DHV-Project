@@ -40,18 +40,26 @@ npm install
 npm run dev
 ```
 
-Terminal 2 — frontend, from the project root:
+Terminal 2 — chatbot API, from the project root:
+
+```powershell
+cd chat-Bot
+python -m pip install -r requirements.txt
+python -m uvicorn nirf_chatbot.main:app --app-dir src --reload --port 8000
+```
+
+Terminal 3 — frontend, from the project root:
 
 ```powershell
 npm install
 npm run dev
 ```
 
-Open the Vite URL printed in the terminal. The frontend uses `/api/rankings` to load prepared records; it no longer generates synthetic historical rankings. If the data pipeline has not produced a dataset, the dashboard displays a notice instead of pretending sample rows are official data.
+Open the Vite URL printed in the terminal. The frontend uses `/api/rankings` to load prepared records and sends chatbot questions to the FastAPI service. If the data pipeline has not produced a dataset, the dashboard displays a notice instead of pretending sample rows are official data.
 
 ## Production deployment note
 
-GitHub Pages can host only the frontend. Deploy the Express backend separately, set the GitHub repository variable `VITE_API_BASE_URL` to the deployed API base URL ending in `/api`, and set backend `CORS_ORIGIN` to the exact deployed frontend origin (for example, `https://your-user.github.io`). Keep `VITE_API_BASE_URL` blank for local development so the Vite proxy is used.
+GitHub Pages can host only the frontend. Deploy the Express and FastAPI backends separately. Set `VITE_API_BASE_URL` to the Express API base URL ending in `/api`, `VITE_CHAT_API_BASE_URL` to the FastAPI origin, `CORS_ORIGIN` to the frontend origin on Express, and `CHATBOT_CORS_ORIGINS` to the frontend origin on FastAPI. Keep both Vite API URL variables blank for local development so the Vite proxies are used.
 
 ## API endpoints
 
@@ -59,6 +67,7 @@ GitHub Pages can host only the frontend. Deploy the Express backend separately, 
 - `GET /api/rankings` — prepared records; optional `year` (integer; invalid values return HTTP 400), `category`, `state`, and `search` query parameters. Each record carries an `institution_key` that stays stable across years even when the published name or ID format changed. The unfiltered response is cached and gzip-compressed.
 - `GET /api/rankings/meta` — dataset metadata and audit report.
 - `POST /api/copilot` — rule-based explanations using current dashboard context. This is not an LLM-backed assistant.
+- `POST /api/chat` — FastAPI chatbot endpoint; accepts `{"question":"..."}` and returns an `answer`.
 
 ## Using the dashboard
 

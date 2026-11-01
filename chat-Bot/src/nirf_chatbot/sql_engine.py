@@ -26,7 +26,7 @@ sql_prompt = ChatPromptTemplate.from_messages([
         - "Score" : FLOAT
         - "Rank" : INTEGER
 
-        RULES:
+        RULES:  
         1. Generate only SELECT queries.
         Generate  Only queries no other text only query only query
         2. Use only the specified table and columns.
