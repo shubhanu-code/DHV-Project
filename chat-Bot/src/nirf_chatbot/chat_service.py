@@ -20,7 +20,7 @@ def process_question(question: str):
 
     print("STEP 3: Executing SQL...")
 
-    results = execute_sql(generated_sql)
+    results = exicute_sql(generated_sql)
 
     print("STEP 4: SQL executed successfully")
 
