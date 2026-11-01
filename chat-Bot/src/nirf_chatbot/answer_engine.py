@@ -41,9 +41,3 @@ def generate_answer(question: str, results: dict):
         "question": question,
         "results": results
     })
-if __name__=="__main__":
-    response = generate_answer(
-        question="Which is the best institute?",
-        results=test_sql.result
-    )
-    print(response)
